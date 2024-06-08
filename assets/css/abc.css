@@ -1,0 +1,202 @@
+body {
+  font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.layout-out {
+  display: flex;
+  padding: 15px;
+}
+
+.layout-in {
+  margin: 0 auto;
+  border: 1px solid #222222;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#email-signature {
+  /* width: 100%; */
+  margin-bottom: 15px;
+  background: white;
+  padding: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  background: rgb(131, 35, 39);
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  padding: 0 25px;
+  font-size: 15px;
+  font: bold 14px 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.77);
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: rgb(225, 210, 128);
+  color: rgb(131, 35, 39);
+  ;
+}
+
+/* /////////////////////////////////// */
+
+.sign-layout {
+  max-width: 600px;
+  /* border: solid 1px red; */
+  /* background-image: url('../images/texture_bg.jpg'); */
+  /* background-image: url(../images/texture_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; */
+
+
+  /* background-image: url(../images/texture_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right; */
+  /* background-size: cover; */
+  /* background-size: 100% 100%; */
+}
+
+
+/* .sign-layout td {
+    border: solid 1px red;
+  } */
+
+.footer-bar img {
+  width: 100%;
+  height: auto;
+  /* border: solid 2px green; */
+}
+
+/* ------------------------------------ */
+
+.rscss .name-class {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.rscss .designation {
+  font-size: 11px;
+  /* font-weight: bold; */
+  font-style: italic;
+  letter-spacing: 6px;
+}
+
+.rscss .d-space {
+  min-height: 20px;
+}
+
+.rscss .director-desk {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rscss img {
+  width: 100%;
+  height: auto;
+  max-width: 15px;
+  vertical-align: middle;
+}
+
+.rscss .rstxt {
+  font-size: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+.lscss {
+  max-width: 250px;
+
+}
+
+.lscss img {
+  width: 100%;
+  height: auto;
+  max-width: 10px;
+  vertical-align: middle;
+
+}
+
+.lscss .lstxt {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+.disclaimer {
+  font-size: 5px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.disclaimer a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Subrat Chhuria */
+
+.custom-bullet h1,
+span {
+  line-height: 0;
+  padding-left: 20px;
+}
+
+.custom-bullet h1 {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* .custom-bullet ul {
+  list-style: square inside url("./assets/images/m_call.png");
+} */
+
+.custom-bullet ul li:nth-child(n) {
+  /* list-style-image: url('./assets/images/m_call.png'); */
+  padding-left: 1rem;
+  line-height: 30px;
+}
+
+.custom-bullet ul li:nth-child(1) {
+  /* list-style-image: url('./assets/images/m_call.png'); */
+  list-style-type: "📞";
+}
+
+.custom-bullet ul li:nth-child(2) {
+  list-style-type: "📧";
+}
+
+.custom-bullet ul li:nth-child(3) {
+  list-style-type: "🌏";
+}
+
+.footer-sig {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 300px;
+  font-size: small;
+  font-size: 10px;
+}
+
+.footer-sig ul li {
+  display:inline;
+  list-style: none;
+}
+
+.footer-sig img {
+  width: 17px;
+  height: 17px;
+}

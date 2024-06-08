@@ -4,9 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metro Group | SF</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="https://metrogroup.ind.in/media/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/abc.css">
 </head>
+
 <body>
-    
+    <div ng-app="myApp" ng-controller="myCtrl" class="layout-out">
+
+        <div class="layout-in">
+
+            <div class="signature">
+                <div id="email-signature">
+                    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+                    <meta name="format-detection" content="telephone=no">
+
+                    <!-- <div>
+                        <img src="./assets/images/texture_bg.jpg" alt="" style="width: 600px;">
+                    </div> -->
+
+                    <table cellspacing="0" cellpadding="0" class="sign-layout" style="top: 0;">
+                        <tr>
+                            <td style="vertical-align: bottom; padding-right: 30px;">
+                                <table cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td><img src="./assets/images/metro_v.gif"
+                                                style="display: block; margin-left: auto; margin-right: auto; max-width: 200px;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table cellspacing="0" cellpadding="0" class="lscss"
+                                                style="margin: 0 auto;">
+                                                <tr>
+                                                    <td style="padding-left: 0px;">
+                                                        <img src="./assets/images/m_earth.png" width="25" />
+                                                    </td>
+                                                    <td><a class="lstxt" style="color: black;" href="https://metrogroup.ind.in/"
+                                                            target="_blank">www.metrogroup.ind.in</a>
+                                                    </td>
+
+                                                    <td style="padding-left: 15px;">
+                                                        <a href="https://www.facebook.com/MetroGroupOfficial" target="_blank"><img
+                                                                src="./assets/images/facebook_icon.png"
+                                                                width="20" /></a>
+                                                    </td>
+                                                    <td style="padding-left: 5px;">
+                                                        <a href="https://www.instagram.com/themetrogroup"
+                                                            target="_blank"><img
+                                                                src="./assets/images/instagram_icon.png"
+                                                                width="20" /></a>
+                                                    </td>
+                                                    <td style="padding-left: 5px;">
+                                                        <a href="https://www.linkedin.com/company/metro-group-ind"
+                                                            target="_blank"><img src="./assets/images/linkedIn_icon.png"
+                                                                width="20" /></a>
+                                                    </td>
+                                                    <td style="padding-left: 5px;">
+                                                        <a href="https://www.youtube.com/@metrogroup30" target="_blank"><img
+                                                                src="./assets/images/youtube_icon.png" width="20"
+                                                                height="20" /></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6"><img src="./assets/images/c_logo.png"
+                                                            style="width: 100%; max-width: 310px; height: auto;"
+                                                            alt="" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="vertical-align: bottom;">
+                                <table cellspacing="0" cellpadding="0" class="rscss">
+                                    <tr>
+                                        <td><span class="name-class">{{name}}</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="designation">{{designation + " " + company}}</span>
+                                            <!-- <hr style="border: 3px solid rgb(5, 89, 214); max-width: 150px; margin: 3px 0 10px;" /> -->
+                                            <div class="d-space"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td></td>
+                                                    <td style="padding-left: 15px;">
+                                                        <span class="director-desk">Director's Desk:</span>
+                                                        <!-- <div class="d-space"></div> -->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="./assets/images/m_mail.png" />
+                                                        <a class="rstxt"
+                                                            href="mailto:sofia@metrogroup.ind.in">{{email}}</a>
+                                                    </td>
+                                                    <td style="padding-left: 15px;">
+                                                        <img src="./assets/images/m_mail.png" />
+                                                        <a class="rstxt"
+                                                            href="mailto:officesofia@metrogroup.ind.in">{{officeEmail}}</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="./assets/images/m_call.png" /> <span
+                                                            class="rstxt">{{mobile}}</span>
+                                                    </td>
+                                                    <td style="padding-left: 15px;">
+                                                        <img src="./assets/images/m_call.png" /> <span
+                                                            class="rstxt">{{mobileEA}}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <table cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td style="vertical-align: top;"><img style="min-width: 15px;"
+                                                                        src="./assets/images/m_location.png" /></td>
+                                                                <td style="padding-top: 0px;"> <span
+                                                                        class="rstxt"><strong>Regd Office -
+                                                                        </strong>Metro River View
+                                                                        Complex, Near Sunshine Field, <br> Ring Road,
+                                                                        Cuttack,
+                                                                        Odisha, India - 753002</span></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="disclaimer">
+                                    <strong>Disclaimer</strong> - Please visit the web page
+                                    of our official website i.e. <a href="https://www.metrogroup.ind.in"
+                                        target="_blank">www.metrogroup.ind.in</a> for the Disclaimer of Warranty, Nil
+                                    Liabilities, Privacy Policy, Terms & Conditions of Use related to the contents of
+                                    this
+                                    email & its attachments.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                <div class="footer-bar">
+                                    <img src="assets/images/footer_bar.png" style="min-width: 600px;" alt="" srcset="">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+
+
+            <button type="button" class="btn" data-clipboard-target=".signature" data-toggle="collapse"
+                data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Copy Signature</button>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/secure.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js'></script>
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
