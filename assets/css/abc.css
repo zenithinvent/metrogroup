@@ -163,24 +163,32 @@ span {
   list-style: square inside url("./assets/images/m_call.png");
 } */
 
+
+.custom-bullet ul {
+  padding-inline-start: 20px;
+}
+
 .custom-bullet ul li:nth-child(n) {
-  /* list-style-image: url('./assets/images/m_call.png'); */
-  padding-left: 1rem;
+  list-style: none;
+  /* padding-left: 1rem; */
+  padding-left: -20px;
   line-height: 30px;
 }
 
-.custom-bullet ul li:nth-child(1) {
-  /* list-style-image: url('./assets/images/m_call.png'); */
+/* .custom-bullet ul li:nth-child(1) {
+  list-style-image: url('../images/call.svg');
   list-style-type: "📞";
 }
 
 .custom-bullet ul li:nth-child(2) {
+  list-style-image: url('../images/mail.svg');
   list-style-type: "📧";
 }
 
 .custom-bullet ul li:nth-child(3) {
+  list-style-image: url('../images/location.svg');
   list-style-type: "🌏";
-}
+} */
 
 .footer-sig {
   position: absolute;
